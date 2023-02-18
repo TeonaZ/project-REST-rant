@@ -45,6 +45,12 @@ body {
     background-color: white;
   }
   
-
+  #infoPicture{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: auto;
+    gap: 10%;
+  }
 
   
