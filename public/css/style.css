@@ -3,7 +3,7 @@ h1 {
     color: cornflowerblue;
   }
   
-img {
+  img {
     width: 60%;
     display: block;
     margin: auto;
@@ -53,4 +53,5 @@ body {
     gap: 10%;
   }
 
+ 
   

@@ -21,7 +21,7 @@ function show (data) {
               {data.place.showEstablished()}
             </h3>
             <h4>
-              Serving {data.place.cuisines}
+              serving {data.place.cuisines}
             </h4>
             <p>Located in {data.place.city}, {data.place.state} and serving {data.place.cuisines}</p>
             <a href={`/places/${data.id}/edit`} className="btn btn-warning"> 
@@ -30,7 +30,7 @@ function show (data) {
             <form method="POST" action={`/places/${data.id}?_method=DELETE`}> 
             <button type="submit" className="btn btn-danger">
                 Delete
-            </button> 
+            </button>
             </form>  
             </div>   
            </div>
@@ -38,5 +38,5 @@ function show (data) {
         </Def>
     )
 }
-
 module.exports = show
+
