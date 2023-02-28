@@ -23,7 +23,7 @@ function index (data) {
   return (
     <Def>
         <main>
-            <h1>Cafes and Restaurants</h1>
+            <h1>Places to Rant About</h1>
             <div className="row">
             {placesFormatted}
             </div>
